@@ -1,0 +1,30 @@
+{
+  "name": "@xzhi/vuepress-plugin-add-copyright",
+  "version": "1.0.0",
+  "description": "添加自定义版权的VuePress插件。A VuePress plugin which add custom copyright.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GitHub-Xzhi/vuepress-plugin-add-copyright.git"
+  },
+  "keywords": [
+    "vuepress",
+    "vuepress-plugin",
+    "copyright",
+    "copy",
+    "markdown",
+    "版权",
+    "添加版权",
+    "自定义版权",
+    "自定义复制行为"
+  ],
+  "author": "Xzhi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GitHub-Xzhi/vuepress-plugin-add-copyright/issues"
+  },
+  "homepage": "https://github.com/GitHub-Xzhi/vuepress-plugin-add-copyright#readme"
+}

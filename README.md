@@ -8,7 +8,7 @@
 
 ## 效果
 
-![](https://gitee.com/C-Xzhi/pic-store/raw/master/vuepress-plugin-add-copyright/Xzhi_20210428_20-24-54.png)
+![效果图](https://gitee.com/C-Xzhi/pic-store/raw/master/vuepress-plugin-add-copyright/Xzhi_20210428_20-24-54.png)
 
 > 这只是默认的效果，版权信息完全可以根据个人的喜好来定制化。
 
@@ -128,4 +128,4 @@ copyright: false # 在特定页面禁用这个插件
   ```
   效果：
 
-  ![](https://gitee.com/C-Xzhi/pic-store/raw/master/vuepress-plugin-add-copyright/Xzhi_20210428_20-24-15.png)
+  ![效果图](https://gitee.com/C-Xzhi/pic-store/raw/master/vuepress-plugin-add-copyright/Xzhi_20210428_20-24-15.png)

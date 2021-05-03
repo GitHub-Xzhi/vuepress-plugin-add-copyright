@@ -1,6 +1,6 @@
 {
   "name": "@xzhi/vuepress-plugin-add-copyright",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "添加自定义版权的VuePress插件。A VuePress plugin which add custom copyright.",
   "main": "index.js",
   "scripts": {

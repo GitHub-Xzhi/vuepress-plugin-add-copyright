@@ -105,6 +105,13 @@ copyright: false # 在特定页面禁用这个插件
 
   网页链接标签。
 
+- ### boundary
+
+  - **类型:** `string`
+  - **默认值:** `\n`
+
+  复制文本与版权信息的边界线符号。
+
 - ### allCustom
 
   - **类型:** `string`

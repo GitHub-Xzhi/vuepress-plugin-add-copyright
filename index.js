@@ -22,6 +22,8 @@ module.exports = (options, context) => ({
       authorNameTag: options.authorNameTag || '作者：',
       // 网页链接标签
       webLinkTag: options.webLinkTag || '原文：',
+      // 复制文本与版权信息的边界线符号
+      boundary: options.boundary || '\n',
     };
   },
   enhanceAppFiles: path.resolve(__dirname, "enhanceAppFile.js"),

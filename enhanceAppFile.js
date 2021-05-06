@@ -19,14 +19,18 @@ export default () => {
           const thanMinLength = copyTxtLength > minLength;
           const webLink = `${window.location.href}`;
           let copyrightContent = `${authorNameTag}${authorName}\n${webLinkTag}${webLink}\n${statement}`;
+          let boundaryContent = boundary;
+          if (boundary !== '\n') {
+            boundaryContent = `\n${boundaryContent}\n`;
+          }
           if (allCustom !== '') {
             copyrightContent = allCustom.replace(/#{webLink}/g, `${webLink}`)
           }
           if (thanMinLength && (enable === undefined || enable)) {
             if (copyrightLoca === 'before') {
-              copyTxt = `${copyrightContent}\n${copyTxt}`;
+              copyTxt = `${copyrightContent}${boundaryContent}${copyTxt}`;
             } else {
-              copyTxt = `${copyTxt}\n${copyrightContent}`;
+              copyTxt = `${copyTxt}${boundaryContent}${copyrightContent}`;
             }
           }
           const clipboardData = e.clipboardData || window.clipboardData;
